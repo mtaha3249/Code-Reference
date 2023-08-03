@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b0bfe5e3280b83438f348ad07675818, type: 3}
+  m_Name: Level-1
+  m_EditorClassIdentifier: 
+  _useAI: 0
+  _win: 20
+  _loose: 5
+  _gravity: 2
+  _maxGravity: 10
+  _tetris:
+  - {fileID: 2738593635955295826, guid: 2b83c6dbe439b2e4fad74d45f340433a, type: 3}
+  - {fileID: 8930764221607827947, guid: 3a1cdaa8148ee214c8323bc0c898b44d, type: 3}
+  - {fileID: 8099532751686884519, guid: 065c9f3f050dee841ac168278df89845, type: 3}

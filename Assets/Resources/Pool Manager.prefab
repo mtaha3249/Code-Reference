@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8648683553332590165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8648683553332590251}
+  - component: {fileID: 8648683553332590250}
+  m_Layer: 0
+  m_Name: Pool Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8648683553332590251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648683553332590165}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8648683553332590250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8648683553332590165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c5dd8a548e4f54a95f7066c6bfdc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemToSpawned:
+  - {fileID: 2738593635955295826, guid: 2b83c6dbe439b2e4fad74d45f340433a, type: 3}
+  - {fileID: 4897409637544485623, guid: 074ecd964635f1d45b7235eab2ea3c22, type: 3}
+  - {fileID: 4370545867266643824, guid: 9e89b39eaabfd5d499ec01c366db7356, type: 3}
+  - {fileID: 7135193286597307767, guid: dc7073c9b8801d549a03a3edf4a68570, type: 3}
+  - {fileID: 5611048713447525554, guid: 806eee1681a5a724391f74b0d0c60e29, type: 3}
+  - {fileID: 8099532751686884519, guid: 065c9f3f050dee841ac168278df89845, type: 3}
+  - {fileID: 8930764221607827947, guid: 3a1cdaa8148ee214c8323bc0c898b44d, type: 3}
+  - {fileID: 6618606642724823227, guid: c7ec39b0ce25e0b4d918e2f7fefce037, type: 3}
+  - {fileID: 1366744912758472464, guid: 2bd965ed40332da44a8ef93c0ace079d, type: 3}
+  _initialSize: 20
+  _isExpandable: 1

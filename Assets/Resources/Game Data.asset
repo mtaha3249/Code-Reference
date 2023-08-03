@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c10445ce6993ab40afa8b19813620c2, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  _tileRotateSpeed: 0.1
+  _allLevels:
+  - {fileID: 11400000, guid: 719729ef0e5d24b489ddf6f776ad9b8d, type: 2}
+  - {fileID: 11400000, guid: 614174e763f609c46b5f21085d3c1892, type: 2}
+  - {fileID: 11400000, guid: 8148a9db806313b4bb6a41058b06be85, type: 2}
+  - {fileID: 11400000, guid: 8224c55b72a7bab49ae2b697399242d2, type: 2}
+  - {fileID: 11400000, guid: b9e57b884c7afe7419f0998ff8fa3406, type: 2}
+  - {fileID: 11400000, guid: 989196b32fac15e47a2b7eb6cec20ff8, type: 2}

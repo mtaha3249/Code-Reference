@@ -1,0 +1,20 @@
+{
+    "name": "Helper",
+    "rootNamespace": "",
+    "references": [
+        "GUID:121573719eaed1c40878c8a27cc2c33d"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
