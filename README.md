@@ -26,18 +26,18 @@
 
 ## <a name="_page2_x69.00_y72.00"></a>INTRODUCTION
 
-This submission include Android APK, report and project developed on `Unity 2021.3.12f1`. 
+This project was developed on `Unity 2021.3.12f1`. 
 
 I tested build on my android device Samsung S22 with `OS 13`. I tested it on other devices as well, like Redmi Note 11 with OS 11 and Redmi Note 10 Pro with `OS 13`. 
 
-Tasks, actions taken for: 
+Tasks or actions taken for: 
 
 - Memory Footprint. 
 - Framerate. 
 - Garbage collection. 
 - Binary size. 
 
-Besides given tasks, I further take more actions for optimizing: 
+Besides these tasks, I further take more actions for optimizing: 
 
 - CPU cost. 
 - Editor Compilation. 
@@ -53,7 +53,7 @@ In the last, I will explain few notable bugs and their improvements. Also, some 
 
 ## <a name="_page2_x69.00_y499.00"></a>ACTION TAKEN 
 
-As given tasks, actions taken for every task is explained below: 
+Actions taken for every task is explained below: 
 
 ### <a name="_page2_x69.00_y553.00"></a>MEMORY FOOTPRINT 
 
