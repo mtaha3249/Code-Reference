@@ -1,11 +1,6 @@
-JULY 3, 2023 ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.001.png)
-
-REPORT 
-
-MUHAMMAD TAHA 
-
-TABLE OF CONTENTS ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.002.png)
-
+**REPORT** 
+**MUHAMMAD TAHA**
+**TABLE OF CONTENTS**
 [Introduction ......................................................................................................................................................................... 2 ](#_page2_x69.00_y72.00)[Action Taken ....................................................................................................................................................................... 2 ](#_page2_x69.00_y499.00)[Memory Footprint.......................................................................................................................................................... 2 ](#_page2_x69.00_y553.00)[Framerate ......................................................................................................................................................................... 2 ](#_page2_x69.00_y680.00)[Garbage Collection ........................................................................................................................................................ 3 ](#_page3_x69.00_y350.00)[Binary Size ....................................................................................................................................................................... 3 ](#_page3_x69.00_y461.00)[CPU Cost ......................................................................................................................................................................... 3 ](#_page3_x69.00_y588.00)[Editor Compilation ........................................................................................................................................................ 4 ](#_page4_x69.00_y72.00)[Project size....................................................................................................................................................................... 4 ](#_page4_x69.00_y158.00)[Achitecture ........................................................................................................................................................................... 4 ](#_page4_x69.00_y228.00)[Singleton .......................................................................................................................................................................... 4 ](#_page4_x69.00_y283.00)[Scriptable Object Events............................................................................................................................................... 4 ](#_page4_x69.00_y579.00)[SOLID ............................................................................................................................................................................. 5 ](#_page5_x69.00_y72.00)[Noticeable Bugs And Modifications ................................................................................................................................ 5 ](#_page5_x69.00_y230.00)[Extra Development Techniques....................................................................................................................................... 5 ](#_page5_x69.00_y616.00)[Pooling System ............................................................................................................................................................... 6 ](#_page6_x69.00_y100.00)[Editor Coding ................................................................................................................................................................. 6 ](#_page6_x69.00_y211.00)[Helper Classes ................................................................................................................................................................. 6 ](#_page6_x69.00_y554.00)[Fun Factor ............................................................................................................................................................................ 6 ](#_page6_x69.00_y624.00)[Art References ..................................................................................................................................................................... 7 ](#_page7_x69.00_y234.00)[Level Design ........................................................................................................................................................................ 7 ](#_page7_x69.00_y473.00)
 
 <a name="_page2_x69.00_y72.00"></a>INTRODUCTION ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.003.png)
@@ -14,7 +9,7 @@ This submission include Android APK, report and project developed on Unity 2021.
 
 I tested build on my android device Samsung S22 with OS 13. I tested it on other devices as well, like Redmi Note 11 with OS 11 and Redmi Note 10 Pro with OS 13. 
 
-According to the tasks, actions taken for: 
+Tasks, actions taken for: 
 
 - Memory Footprint. 
 - Framerate. 
@@ -77,7 +72,7 @@ To optimize CPU cost, I try to use coroutines as they are multithreaded and good
 
 I try not to create new variables at runtime, and try not to use new vector too much, instead using static vectors like vector3.one etc and modify them for my need. 
 
-<a name="_page4_x69.00_y72.00"></a>EDITOR COMPILATION ![](Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.005.png)
+<a name="_page4_x69.00_y72.00"></a>EDITOR COMPILATION ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.005.png)
 
 To optimize editor compilation I organize code properly, and create assembly definition. This way only the modified assemblies will compile. If we don’t create assembly definition then, all code will be gone to Unity assembly and compile full assembly when changes are made. 
 
@@ -107,7 +102,7 @@ I try not to use delegates or actions, as they need more configuration of the co
 
 I even use Actions in the Input Manager to tell about the swiped made. I used there because whoever had to modify input swipes code, they will probably be a developer not the game designers. 
 
-<a name="_page5_x69.00_y72.00"></a>SOLID ![](Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.006.png)
+<a name="_page5_x69.00_y72.00"></a>SOLID ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.006.png)
 
 Most of the code, I try to write is open for editing via events or callbacks. This is really helpful for the game designers to add more functionality. 
 
@@ -164,7 +159,7 @@ I write few helper classes for the developers which act separately and can be us
 I added a lot of fun factor in the game, to make it more interesting to play. 
 
 - In the game initially required tower height is less and it increases by level to make user to play more and more. 
-- I added camera shake when tile hit the ground. ![](Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.012.png)
+- I added camera shake when tile hit the ground. ![](Report/Aspose.Words.a9442c15-7964-49ad-a717-ebfe2d26f020.012.png)
 - I added haptic feedback when tile hit ground as well as when fall in the acid. 
 - I added simple particle effect when tile reach the ground or hit acid. 
 - I added UI animation to make it feel more live. 
